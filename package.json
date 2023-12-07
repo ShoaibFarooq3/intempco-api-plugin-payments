@@ -1,0 +1,112 @@
+{
+  "_from": "@reactioncommerce/api-plugin-payments@1.0.5",
+  "_id": "@reactioncommerce/api-plugin-payments@1.0.5",
+  "_inBundle": false,
+  "_integrity": "sha512-HqIklHKS9NcAhckUgGySmrQ07CCyXrTy3mTS3TKh+ho4VadNe6yIxQLolov+bm6odFHLk2GMErwreAGyq6xkDw==",
+  "_location": "/@reactioncommerce/api-plugin-payments",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "version",
+    "registry": true,
+    "raw": "@reactioncommerce/api-plugin-payments@1.0.5",
+    "name": "@reactioncommerce/api-plugin-payments",
+    "escapedName": "@reactioncommerce%2fapi-plugin-payments",
+    "scope": "@reactioncommerce",
+    "rawSpec": "1.0.5",
+    "saveSpec": null,
+    "fetchSpec": "1.0.5"
+  },
+  "_requiredBy": [
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/@reactioncommerce/api-plugin-payments/-/api-plugin-payments-1.0.5.tgz",
+  "_shasum": "f34714fa786127157ff7b57823580bef5f210a16",
+  "_spec": "@reactioncommerce/api-plugin-payments@1.0.5",
+  "_where": "/home/awahab1116/check-intempco/reaction-cli",
+  "author": {
+    "name": "Reaction Commerce",
+    "email": "engineering@reactioncommerce.com",
+    "url": "https://reactioncommerce.com"
+  },
+  "bugs": {
+    "url": "https://github.com/reactioncommerce/api-plugin-payments/issues"
+  },
+  "bundleDependencies": false,
+  "commitlint": {
+    "extends": [
+      "@commitlint/config-conventional"
+    ]
+  },
+  "dependencies": {
+    "@reactioncommerce/api-utils": "^1.16.9",
+    "@reactioncommerce/reaction-error": "^1.0.1",
+    "simpl-schema": "^1.12.0"
+  },
+  "deprecated": false,
+  "description": "Payments plugin for the Reaction API",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "@reactioncommerce/api-plugin-shops": "^1.0.0",
+    "@reactioncommerce/babel-remove-es-create-require": "~1.0.0",
+    "@reactioncommerce/data-factory": "^1.0.1",
+    "@reactioncommerce/eslint-config": "~2.1.0",
+    "babel-eslint": "^10.0.3",
+    "babel-jest": "~25.1.0",
+    "babel-plugin-rewire-exports": "^2.0.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "babel-plugin-transform-import-meta": "~1.0.0",
+    "eslint": "^6.4.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-jest": "^23.7.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-node": "^10.0.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-react": "^7.14.3",
+    "eslint-plugin-react-hooks": "^2.0.1",
+    "husky": "^4.2.3",
+    "jest": "^25.1.0",
+    "semantic-release": "^17.0.4"
+  },
+  "email": "engineering@reactioncommerce.com",
+  "engines": {
+    "node": ">=12.14.1"
+  },
+  "homepage": "https://github.com/reactioncommerce/api-plugin-payments",
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "license": "GPL-3.0",
+  "main": "index.js",
+  "name": "@reactioncommerce/api-plugin-payments",
+  "prettier": {
+    "arrowParens": "always"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "release": {
+    "branches": [
+      "trunk"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reactioncommerce/api-plugin-payments.git"
+  },
+  "scripts": {
+    "lint": "npm run lint:eslint",
+    "lint:eslint": "eslint .",
+    "test": "jest",
+    "test:file": "jest --no-cache --watch --coverage=false",
+    "test:watch": "jest --watch"
+  },
+  "sideEffects": false,
+  "type": "module",
+  "url": "https://github.com/reactioncommerce/api-plugin-payments",
+  "version": "1.0.5"
+}
