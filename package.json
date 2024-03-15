@@ -1,6 +1,6 @@
 {
-  "_from": "@reactioncommerce/api-plugin-payments@1.0.5",
-  "_id": "@reactioncommerce/api-plugin-payments@1.0.5",
+  "_from": "@reactioncommerce/api-plugin-payments@1.0.6",
+  "_id": "@reactioncommerce/api-plugin-payments@1.0.6",
   "_inBundle": false,
   "_integrity": "sha512-HqIklHKS9NcAhckUgGySmrQ07CCyXrTy3mTS3TKh+ho4VadNe6yIxQLolov+bm6odFHLk2GMErwreAGyq6xkDw==",
   "_location": "/@reactioncommerce/api-plugin-payments",
@@ -8,7 +8,7 @@
   "_requested": {
     "type": "version",
     "registry": true,
-    "raw": "@reactioncommerce/api-plugin-payments@1.0.5",
+    "raw": "@reactioncommerce/api-plugin-payments@1.0.6",
     "name": "@reactioncommerce/api-plugin-payments",
     "escapedName": "@reactioncommerce%2fapi-plugin-payments",
     "scope": "@reactioncommerce",
@@ -21,7 +21,7 @@
   ],
   "_resolved": "https://registry.npmjs.org/@reactioncommerce/api-plugin-payments/-/api-plugin-payments-1.0.5.tgz",
   "_shasum": "f34714fa786127157ff7b57823580bef5f210a16",
-  "_spec": "@reactioncommerce/api-plugin-payments@1.0.5",
+  "_spec": "@reactioncommerce/api-plugin-payments@1.0.6",
   "_where": "/home/awahab1116/check-intempco/reaction-cli",
   "author": {
     "name": "Reaction Commerce",
@@ -108,5 +108,5 @@
   "sideEffects": false,
   "type": "module",
   "url": "https://github.com/reactioncommerce/api-plugin-payments",
-  "version": "1.0.5"
+  "version": "1.0.6"
 }
